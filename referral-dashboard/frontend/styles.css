@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.user-item {
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.user-item:hover {
+  background-color: #dbeafe;
+}
+
+.rewards {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.rewards ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rewards li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #ddd;
+}
